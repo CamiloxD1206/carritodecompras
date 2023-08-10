@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cabeza {
+    display: grid;
+    grid-template-areas: "imagen2 titulo imagen";
+}
+
+.titulo {
+    margin-top: 20px;
+}
+
+#carro {
+    margin-top: 10px;
+}
+
+.cabeza {
+    text-align: center;
+    font-size: xx-large;
+    padding: 2%;
+    border-bottom: 1px solid rgb(193, 181, 181);
+    background-color: red;
+    color: white;
+}
+
+.cuerpo {
+    margin: 50px;
+}
+
+.contenedor-cards {
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(160, 160, 160);
+    border-radius: 10px;
+}
+
+#boton {
+    background-color: red;
+    border: red;
+}
+
+.fondo-modal {
+    padding: 1%;
+    text-align: center;
+    background-color: rgb(240, 239, 239);
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    box-shadow: 1px 1px 29px 14px rgba(0, 0, 0, 0.59);
+    -webkit-box-shadow: 1px 1px 29px 14px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: 1px 1px 29px 14px rgba(0, 0, 0, 0.59);
+}
+
+.bloqueo {
+    pointer-events: none;
+}
